@@ -1,5 +1,5 @@
 /**
- * Linear Loop:
+ * 0(n): Linear Time:
  * As the Array size increases, the number of operations increase linearly with it...
  */
 
@@ -9,11 +9,9 @@ const On = function () {
 
     const array = new Array(1000).fill('value');
 
-    // 0(n): Linear Time
     array.forEach(element => {
         console.log(element);
     });
-
 
 };
 
