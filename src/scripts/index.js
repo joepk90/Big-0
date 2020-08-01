@@ -8,7 +8,7 @@ import On from './0(n)';
 
 console.log('Big 0 Algorithms Started');
 
-
+On();
 
 
 console.log('Big 0 Algorithms Ended');
