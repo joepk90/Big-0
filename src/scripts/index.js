@@ -6,11 +6,13 @@
 
 import On from './0(n)';
 import O1 from './0(1)';
+import factorial_time from './factorial';
 
 console.log('Big 0 Algorithms Started');
 
 O1();
 On();
+factorial_time(4);
 
 console.log('Big 0 Algorithms Ended');
 
