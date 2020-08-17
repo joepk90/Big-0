@@ -3,7 +3,7 @@
  * As the Array size increases, the number of operations does not increase - it stays constant.
  */
 
-const On = function () {
+const constantTime = function () {
 
     console.log('Example Big 0 Notation: Constant Time Algorithm - 0(1)');
 
@@ -19,4 +19,4 @@ const On = function () {
 
 };
 
-export default On;
+export default constantTime;

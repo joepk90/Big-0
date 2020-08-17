@@ -3,7 +3,7 @@
  * As the Array size increases, the number of operations increase linearly with it...
  */
 
-const On = function () {
+const linearTime = function () {
 
     console.log('Example Big 0 Notation: Linear Algorithm - 0(n)');
 
@@ -15,4 +15,4 @@ const On = function () {
 
 };
 
-export default On;
+export default linearTime;

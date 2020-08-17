@@ -4,15 +4,16 @@
  * A things grow larger and larger, does it scale?
  */
 
-import On from './0(n)';
-import O1 from './0(1)';
-import factorial_time from './factorial';
+import linearTime from 'linear-time';
+import constantTime from '.constant-time';
+import factorialTime from './factorial-time';
 
 console.log('Big 0 Algorithms Started');
 
-O1();
-On();
-factorial_time(4);
+constantTime();
+linearTime();
+factorialTime(4);
+quadraticTime(4);
 
 console.log('Big 0 Algorithms Ended');
 
